@@ -1,5 +1,5 @@
 import pymysql
-connect = pymysql.connect(host="rm-7xv4tx3319797f1d34o.mysql.rds.aliyuncs.com", port=3306, user="chen", passwd="Cjx97625*", charset="utf8",
+connect = pymysql.connect(host="xxx", port=3306, user="xx", passwd="xxx", charset="utf8",
                           db="spider_test")
 cursor = connect.cursor()
 

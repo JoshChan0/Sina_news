@@ -11,11 +11,11 @@ RETRY_TIMES = 10
 DOWNLOADER_TIMEOUT = 10
 
 # 数据库地址
-MYSQL_HOST = 'rm-7xv4tx3319797f1d34o.mysql.rds.aliyuncs.com'
+MYSQL_HOST = 'xxxxxxx'
 # 数据库用户名:
-MYSQL_USER = 'joshchan'
+MYSQL_USER = 'xxxxx'
 # 数据库密码
-MYSQL_PASSWORD = 'Cjx97625*'
+MYSQL_PASSWORD = 'xxxxx'
 # 数据库端口
 MYSQL_PORT = 3306
 # 数据库名称
@@ -113,7 +113,7 @@ ITEM_PIPELINES = {
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
-REDIS_URL = 'redis://:Cjx97625*@r-7xv6qj40jkykeje94lpd.redis.rds.aliyuncs.com:6379/db0'
+REDIS_URL = 'xxxxxxxxxx'
 # # 如果需要避免起始网址列表出现重复，这个选项非常有用。开启此选项urls必须通过sadd添加，否则会出现类型错误。
 # REDIS_START_URLS_AS_SET = True
 

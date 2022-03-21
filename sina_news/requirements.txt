@@ -1,5 +1,0 @@
-scrapy
-scrapy-redis
-pymysql
-fake_useragent
-Twisted

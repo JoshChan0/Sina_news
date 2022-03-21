@@ -13,12 +13,11 @@ from itemadapter import is_item, ItemAdapter
 
 #给request设置代理
 class ProxyDownloaderMiddleware(object):
-    proxy_main = "tps802.kdlapi.com:15818"
-    testproxy='42.51.40.241:16817'
+    proxy_main = "xxxxxxxxx"
 
     def process_request(self, request, spider):
         # 白名单
-        request.meta['proxy'] = "http://%(proxy)s" % {'proxy': self.testproxy}
+        request.meta['proxy'] = "http://%(proxy)s" % {'proxy': self.proxy_main}
         # 用户名密码认证
         # request.headers['Proxy-Authorization'] = basic_auth_header('${username}', '${password}')  # 白名单认证可注释此行
         #Scrapy在使用隧道代理可能会出现复用之前建立的连接导致不能正常更换IP，在header中加入Connection: close
